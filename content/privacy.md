@@ -1,9 +1,12 @@
-+++
-title = "Disclaimer"
-[menu.main]
-weight = 6
+---
+title: Disclaimer
+layout: page
+menu:
+  main:
+    name: Disclaimer
+    weight: 6
 
-+++
+---
 ## LEGAL DISCLOSURE
 
 Information in accordance with section 5 TMG
