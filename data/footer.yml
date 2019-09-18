@@ -3,7 +3,7 @@ enable_contact_section: false
 copyright: "&copy; Reflex. All rights reserved. Lorem ipsum dolor sit amet nullam."
 links:
 - text: Impressum
-  url: privacy/
+  url: /privacy/
   new_window: false
 - text: Made with Stackbit
   url: https://www.stackbit.com
