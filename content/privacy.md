@@ -1,5 +1,7 @@
 +++
 title = "Disclaimer"
+[menu.main]
+weight = 6
 
 +++
 ## LEGAL DISCLOSURE
