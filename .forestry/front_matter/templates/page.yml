@@ -27,6 +27,6 @@ fields:
   config:
     required: true
 pages:
+- content/consequat-dolor.md
 - content/tempus-etiam.md
 - content/generic.md
-- content/consequat-dolor.md
