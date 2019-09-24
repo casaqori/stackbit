@@ -6,7 +6,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="{{ (resources.Get "sass/main.scss" | resources.ToCSS (dict "indentWidth" 4 "outputStyle" "compressed" "precision" 10 "targetPath" "assets/css/main.css")).Permalink }}" />
-        <link rel="stylesheet" href="{{ "assets/css/markdown-images.css" | resources.Minify | relURL }}" />
+        <link rel="stylesheet" href="{{ (resources.Get "assets/css/markdown-images.css" | resources.Minify).RelPermalink }}" />
         
     </head>
     <body>
@@ -24,8 +24,8 @@
         <script src="{{ "assets/js/jquery.min.js" | relURL }}"></script>
         <script src="{{ "assets/js/browser.min.js" | relURL }}"></script>
         <script src="{{ "assets/js/breakpoints.min.js" | relURL }}"></script>
-        <script src="{{ "assets/js/util.js" | resources.Minify | relURL }}"></script>
-        <script src="{{ "assets/js/main.js" | resources.Minify | relURL }}"></script>
-        <script src="{{ "assets/js/page_load.js" | resources.Minify | relURL }}"></script>
+        <script src="{{ (resources.Get "assets/js/util.js" | resources.Minify).RelPermalink }}"></script>
+        <script src="{{ (resources.Get "assets/js/main.js" | resources.Minify).RelPermalink }}"></script>
+        <script src="{{ (resources.Get "assets/js/page_load.js" | resources.Minify).RelPermalink }}"></script>
     </body> 
 </html>
