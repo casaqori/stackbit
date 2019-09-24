@@ -1,6 +1,6 @@
 ---
 title: Reflex
-baseURL: "/"
+baseURL: "https://casaqori.com/stackbit/"
 params:
   none: ''
 disableKinds:
